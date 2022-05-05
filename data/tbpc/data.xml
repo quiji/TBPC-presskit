@@ -1,0 +1,369 @@
+<!-- # Product — presskit.html -->
+
+<!--
+  **This is your product or game page**. It should focus on _ONLY_ one product. This is not a replacement for your product's website, but a quick way for the press to know it faster.
+
+  [Check the actual rendered page for the code you'll find below.](http://pixelnest.io/presskit.html/example/product/)
+
+  If you don't have a `data.xml` yet, the easiest way to start is to run this command in your presskit folder:
+
+  ```bash
+  presskit new -t product
+  ```
+
+  Then, open the generated `data.xml` file and fill the blanks while following this guide.
+
+  <hr>
+
+  For your company' `data.xml`, [refer to the company documentation](../company/).
+
+  <hr>
+-->
+
+<!-- Don't forget to set your XML header correctly. -->
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Use a `<product>` or `<game>` tag.
+-->
+<product>
+  <!-- ## General Information -->
+
+  <!-- Begin with your product name, website, and miscellaneous information. -->
+  <title>The Black Pepper Crew</title>
+  <website>https://store.steampowered.com/app/1605520/The_Black_Pepper_Crew/</website>
+
+  <!-- You can also add an URL to a request page for this product. A button will be displayed on the page. -->
+  <!-- 
+  <press-copy-request>
+    http://pizzaburger.studio/mysupergame/request/
+  </press-copy-request>
+
+  -->
+
+  <!--
+    If you have one or many publishers for this product, you can add them here.
+
+    The `<based-in>` and `<website>` tags are optional.
+
+  <partners>
+    <partner>
+      <type>Publisher</type>
+      <title>Pixelnest Studio</title>
+      <website>https://pixelnest.io/</website>
+      <based-in>Rennes, France</based-in>
+    </partner>
+    <partner>
+      <type>Distributor</type>
+      <title>Pizza Oven LLC</title>
+    </partner>
+  </partners>
+  -->
+
+
+  <!-- Add as many dates, platforms and prices as needed. -->
+  <release-dates>
+    <release-date>Coming soon</release-date>
+  </release-dates>
+
+  <!--
+    Put all the platforms your product is available on.
+
+    `<link>` tag is optional.
+  -->
+  <platforms>
+    <platform>
+      <name>PC / Mac / Linux</name>
+    </platform>
+    <platform>
+      <name>Steam</name>
+      <link>https://store.steampowered.com/app/1605520/The_Black_Pepper_Crew/</link>
+    </platform>
+    <platform>
+      <name>Nintendo Switch</name>
+    </platform>
+  </platforms>
+
+  <!-- Show the price of your product. Try to be exhaustive, it will be helpful for a reviewer. -->
+  <prices>
+    <price>
+      <currency>USD</currency>
+      <value>14.99</value>
+    </price>
+  </prices>
+
+  <!-- ## Relations -->
+
+  <!--
+    You can specify relations between products using the `<relations>` tag.
+
+
+    Then, on this page product, you will see a new line in the factsheet:
+
+    ```
+    DLC:
+    My Super Game: Ultimate Edition
+    ```
+
+    Of course, the `Product Name` value is clickable.
+
+    In the related product page, a new value will also be added:
+
+    ```
+    DLC of:
+    My Super Game
+    ```
+
+    _Obviously, since the name we provide in the example is not a real product (ie., the product data.xml does not exist), this tag will be ignored for this page._
+
+    You can have as many relations as you want. You can use it to show DLCs, expansions, sequels, prequels, etc.
+
+    **Warning**: you need to rebuild the presskit to see the changes.
+  <relations>
+    <relation>
+      <type>DLC</type>
+      <product>My Super Game: Ultimate Edition</product>
+    </relation>
+  </relations>
+
+
+  -->
+
+  <!-- ## Description & History -->
+
+  <!-- Describe your product here. Be brief. -->
+  <description>
+    The Black Pepper Crew is a turn based tactics roguelite game about bounty hunting with a cast of colorful characters. Fight thugs, improve your facilities, hunt bounties, get gear, loose gear, contract more members, loose some members... and succeed in a city filled with criminals.
+  </description>
+
+  <!--
+    Tell the story of your product with the `<history>` tag.
+
+    You have two possibilities here.
+
+    - Use an `<history>` block like in the example.
+    - Or use an `<histories>` block if you have tons of things to say.
+
+    You can't have both.
+
+    You can see an example of the `<histories>` block in the company page.
+  -->
+  <history>
+    TBPC started as a jam game back in 2020. First envisioned as a platformer heist game, after prototyping, and thanks to the game jam's time constraints, the game worked with its core elements. After expanding the game and adding the roguelite tag to its central mechanics, The Black Pepper Crew shined and won the Best Debut Game award for the National Uruguayan Videogame contest on 2021. Currently on development.
+  </history>
+
+  <!-- ## Features -->
+
+  <!--
+    Show the most important features of your product.
+
+    Focus on what is really important and is a key aspect of it.
+  -->
+  <features>
+    <feature>
+      Strategize your missions by building a 4 character party from a roster of 12 different character types.
+    </feature>
+    <feature>
+      Plan each mission carefully by choosing the path towards the bounty and equipping the items that best suit your strategy.
+    </feature>
+    <feature>
+      Avoid grinding and embrace the strategy of gear and crew combinations. Loot/Buy items from a big pool of items.
+    </feature>
+    <feature>
+      Fight hard but fair battles in several locations around the city, experience intense turn based combat on compact 8x8 grid levels.
+    </feature>
+    <feature>
+      Experience colorful characters, interesting city environments and a heavy dose of jazz music.
+    </feature>
+  </features>
+
+  <!-- ## Trailers -->
+
+  <!--
+    Add your videos. Trailer, teaser, snippets? Let's roll!
+
+    You can use YouTube and/or Vimeo. Only one is needed, and only one is recommended.
+
+    Don't put the full link: just the ID is necessary.
+
+    If you want to provide a link to download the video, add this tag in `<trailer>`:
+
+    ```
+    <download>https://example.com/video.mp4</download>
+    ```
+  -->
+  <trailers>
+    <trailer>
+      <name>Teaser Trailer</name>
+      <youtube>nn2p3bR52Dg</youtube>
+    </trailer>
+    <trailer>
+      <name>Gameplay Video</name>
+      <youtube>Rmdw6bqypXM</youtube>
+    </trailer>
+  </trailers>
+
+  <!-- ## Widgets -->
+
+  <!--
+    Add your widgets to your product here.
+
+    If the product is not a game or an app, you won't probably need that.
+
+    We only need the ID of the product on the store.
+
+    This section is **optional**, and you can use as many widgets (or none) as you want.
+
+    **Warning: widgets import many scripts and assets. This may have a penalty on your page size and responsiveness.**
+  -->
+  <widgets>
+  <!--
+    <appstore>950812012</appstore>
+    <playstore>com.noodlecake.altosadventure</playstore>
+    <humble>steredenn/7SDLfk23hw</humble>
+    <itch>27992</itch>
+    <bandcamp>1135613467</bandcamp>
+
+  --> 
+    <steam>1605520</steam>
+  </widgets>
+
+  <!-- ## Awards, quotes & links -->
+
+  <!--
+    You got awards for this product? Great! Put them here.
+
+    **Optional.**
+  -->
+  <awards>
+    <award>
+      <description>Best Debut Game</description>
+      <info>National Game Conest, Uruguay, December 2021</info>
+    </award>
+  </awards>
+
+  <!--
+    Quotes are used to show the appreciation of your users.
+
+    Show something important, something nice, or something funny, for example.
+
+  <quotes>
+    <quote>
+      <description>This is my favorite game of all time.</description>
+      <name>Mum</name>
+      <website>At home</website>
+      <link>http://at.home/</link>
+    </quote>
+    <quote>
+      <description>A very serious quote you're very proud of by someone you respect.</description>
+      <name>Master</name>
+      <website>Master's website</website>
+      <link>http://mast.er/</link>
+    </quote>
+    <quote>
+      <description>10/10 would play it again and again.</description>
+      <name>A friendly anonymous Steam reviewer</name>
+      <website>Steam review</website>
+      <link>http://steam.review/</link>
+    </quote>
+  </quotes>
+
+    **Optional.**
+  -->
+
+
+  <!--
+    Need to link to a resource? A small product? An RSS feed? An OST?
+
+    A press release?
+
+    Put those here, in the `<additionals>` tag.
+
+  <additionals>
+    <additional>
+      <title>Original Soundtrack (OST)</title>
+      <description>Composed by an awesome musician. Listen for free, download for $3 at</description>
+      <link>http://zandernoriega.bandcamp.com/album/steredenn-original-soundtrack</link>
+    </additional>
+    <additional>
+      <title>Release announcement</title>
+      <description>Announcement are exciting, so we usually make blog posts or news about it on</description>
+      <link>http://pixelnest.io/journal/</link>
+    </additional>
+  </additionals>
+
+
+    **Optional.**
+  -->
+
+  <!-- ## About -->
+
+  <!--
+    An "About Your Company" section is automatically generated from the content of the company page.
+
+    This <abouts> tag is completely **optional**. If you don't want this section, just delete it. But sometimes, you want to add a description for a partner.
+
+    This is this the place to do it.
+
+    For example, if you have a publisher, you can speak a bit more about it here.
+
+    Most of the time, you should link that to the <partner> tag above, if you want to explain a partner a bit more. But you could use this section for other purpose.
+
+  <abouts>
+    <about>
+      <title>Pixelnest Studio</title>
+      <description>Pixelnest Studio is a small French studio which creates games, websites and apps. They made Steredenn, a roguelike-shmup in big pixels. They are also behind presskit.html, which you are probably using if you are reading this.</description>
+      <link>https://pixelnest.io/</link>
+    </about>
+  </abouts>
+
+
+    The <link> tag is optional.
+  -->
+  
+  <!-- ## Team & Contacts -->
+
+  <!--
+    This is for the product team.
+
+    Add yourself, of course, but also your collaborators, freelancers and/or partners for example.
+
+    The `<role>` tag can be anything you want. But we recommend to, at least, put the company name for the founders/employees. This will distinguish this person from the external collaborators.
+
+    The `<website>` tag is optional.
+  -->
+  <credits>
+    <credit>
+      <person>Erick Quijivix</person>
+      <role>Founder, Developer, Composer, Sound Designer, Pixel artist, Game Designer, Coffee drinking machine.</role>
+    </credit>
+    <credit>
+      <person>Hendric Sueitt</person>
+      <role>Promo Art Illustrator</role>
+      <website>https://twitter.com/HendricSueitt</website>
+    </credit>
+  </credits>
+
+  <!--
+    Add more contact information.
+
+    Add links to your product social accounts, as well as mail specific to this product. And the website.
+
+    For each item, pick one between a `<link>` and `<mail>` tag.
+  -->
+  <contacts>
+    <contact>
+      <name>Inquiries</name>
+      <mail>erick.quijivix@gmail.com</mail>
+    </contact>
+    <contact>
+      <name>Twitter</name>
+      <link>
+        https://twitter.com/QuijiPixel
+      </link>
+    </contact>
+
+  </contacts>
+
+<!-- All done! 🍾 -->
+</product>
