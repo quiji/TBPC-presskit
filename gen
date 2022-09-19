@@ -1,0 +1,9 @@
+#!/bin/bash
+
+node ./bin/presskit build ./data
+
+cp -r ./build/* ./_docs
+
+git add *
+git commit -m "new build"
+git push origin master
