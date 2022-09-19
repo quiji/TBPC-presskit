@@ -1,5 +1,15 @@
 # ![presskit.html](header.png)
 
+# JUST RUN:
+``` ./gen ```
+
+
+
+
+
+
+
+
 > Re-implementation of presskit() as a static site generator
 
 ![Build Status](https://travis-ci.org/pixelnest/presskit.html.svg?branch=master)

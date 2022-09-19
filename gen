@@ -1,11 +1,11 @@
 #!/bin/bash
 
-rm -rf ./_docs/*
+rm -rf ./docs/*
 rm -rf ./build/*
 
 node ./bin/presskit build ./data
 
-cp -r ./build/* ./_docs
+cp -r ./build/* ./docs
 
 git add *
 git commit -m "new build"
