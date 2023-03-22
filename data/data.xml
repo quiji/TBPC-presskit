@@ -32,7 +32,7 @@
   <!-- ## General Information -->
 
   <!-- Begin with your company name, location, and miscellaneous information. -->
-  <title>Quijipixel</title>
+  <title>Quijipixel Games</title>
   <based-in>Rocha, Uruguay</based-in>
   <founding-date>February 6, 2022</founding-date>
   <website>https://twitter.com/QuijiPixel</website>
@@ -76,7 +76,7 @@
 
   <!-- The description is a simple short block to describe your company or studio. Be brief. -->
   <description>
-    Quijipixel is a one man Uruguayan/Guatemalan independent game studio made by Erick Quijivix. Currently developing its first game, The Black Pepper Crew, Quijipixel is focused in pixel art aesthetics, great game feel and innovative mechanics. 
+    Quijipixel Games is a one man Uruguayan/Guatemalan independent game studio made by Erick Quijivix. Currently developing its first game, The Black Pepper Crew, Quijipixel Games is focused in pixel art aesthetics, great game feel and innovative mechanics. 
   </description>
 
   <!--
@@ -154,6 +154,10 @@
     <award>
       <description>Finalist</description>
       <info>Indie X, Portugal, November 2022</info>
+    </award>
+    <award>
+      <description>Official Selection</description>
+      <info>Latin American Games Showcase, Latin America, March 2023</info>
     </award>
   </awards>
 
